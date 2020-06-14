@@ -1,0 +1,484 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+p {
+  color: #666;
+  line-height: 1.9;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Merriweather", serif;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: "Merriweather", serif;
+  color: #316dc3;
+}
+
+h5 {
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto;
+  font-size: 13px;
+}
+
+.header-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #316dc3;
+  color: #fff;
+  align-items: center;
+
+  padding: 20px 10%;
+  font-size: 14px;
+}
+
+.social-menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.social-menu ul li a {
+  padding: 15px;
+  color: #fff;
+}
+
+.ctas button {
+  padding: 5px 10px;
+  color: #427900;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+  align-items: center;
+  background-color: #fff;
+  padding: 0 10%;
+  font-weight: 600;
+  border-bottom: 1px solid #eee;
+}
+
+.logo img {
+  max-height: 52px;
+}
+
+nav {
+  display: flex;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.menu-items {
+  display: flex;
+  list-style: none;
+}
+
+.menu-item a {
+  text-decoration: none;
+  padding: 25px;
+  color: #333;
+}
+
+/* Slider Section */
+
+.slider {
+  height: 450px;
+  background: url("../img/BloodBank_Slider.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Scrolling Content */
+
+.scrolling-content p {
+  text-align: center;
+  margin: 12px auto;
+  background-color: #316dc3;
+  color: #fff;
+  padding: 5px;
+}
+
+/* Main Content */
+
+.main-content {
+  background-color: #f7f8fa;
+}
+
+.intro {
+  margin: auto;
+  padding: 60px 0;
+}
+
+.intro h2 {
+  text-align: center;
+}
+
+.intro-blue {
+  color: #316dc3;
+}
+
+.intro-green {
+  color: #427900;
+}
+
+.title-img {
+  text-align: center;
+  max-width: 160px;
+  margin: auto;
+  vertical-align: middle;
+  font-weight: 900px;
+}
+
+.title-img img {
+  height: 40px;
+  margin: 10px 5px 0 5px;
+}
+
+hr {
+  display: inline-block;
+  width: 35px;
+  height: 3px;
+  color: #427900;
+  background-color: #427900;
+}
+
+.content {
+  text-align: justify;
+  width: 75%;
+  margin: auto;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+}
+
+.content p {
+  margin-top: 15px;
+  color: #888;
+}
+
+/* Number Section */
+
+.numbers {
+  background-color: #316dc3;
+}
+
+.numbers img {
+  height: 40px;
+}
+
+.numbers-container {
+  display: flex;
+  padding: 80px 0;
+  margin: auto;
+}
+
+.col {
+  width: 25%;
+  text-align: center;
+  color: #fff;
+}
+
+.col h2 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.col h5 {
+  font-size: 14px;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.numbers_green {
+  color: rgb(0, 255, 0);
+  font-size: 18px;
+}
+
+/* Question Section */
+
+.question {
+  background-color: #f7f8fa;
+}
+
+.question-container {
+  text-align: center;
+  padding: 60px 0;
+  margin: auto;
+}
+
+.question-box_images {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+.box_images-container {
+  background-color: #fff;
+  width: 30%;
+  padding: 30px;
+  margin: 0 15px;
+  margin-bottom: 30px;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+}
+
+.box_images-container img {
+  width: 70px;
+}
+
+.box_images-container h5 {
+  font-size: 18px;
+  margin-top: 18px;
+  color: #316dc3;
+}
+
+/* Mission section */
+
+.mission-section-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.mission-col-1 {
+  flex: 3;
+}
+
+.mission-col-1-inner-sections {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.inner-sections-items {
+  display: flex;
+  vertical-align: middle;
+  background-color: #f7f8fa;
+  align-items: center;
+  padding: 20px 15px;
+  margin: 20px 30px 0px 0px;
+  border: 1px solid #eeeeee;
+  width: 40%;
+}
+
+.inner-sections-items h5 {
+  margin-left: 25px;
+}
+
+.mission-col-2 {
+  flex: 2;
+}
+
+.mission-col-2-inner-sections p {
+  width: 50%;
+  margin-top: 30px;
+}
+
+/* Gallery section */
+
+.gallery-section {
+  text-align: center;
+  margin: 150px 0px 200px 0;
+}
+
+.gallery-container {
+  width: 80%;
+  margin: auto;
+}
+
+.gallery {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery a {
+  width: 19.5%;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+/* footer section */
+
+.footer-top-container {
+  background-color: #25272e;
+}
+
+.footer-top {
+  display: flex;
+
+  color: #bbb;
+  padding: 70px 0px 40px 0px;
+  width: 70%;
+  margin: auto;
+}
+
+.footer-info {
+  flex: 1;
+}
+
+.footer-info p {
+  color: #bbb;
+}
+
+.contact-info {
+  list-style: none;
+}
+
+.fa-phone-alt,
+.fa-envelope {
+  color: #427900;
+  margin: 7px;
+}
+
+.fa-globe-asia {
+  margin: 0 7px 0 13px;
+  color: #427900;
+}
+
+.footer-top_useful-links {
+  flex: 1;
+}
+
+.footer-top_useful-links hr {
+  color: #427900;
+  background-color: #427900;
+  border: #427900;
+}
+
+.footer-social {
+  color: #fff;
+  flex: 1;
+}
+
+.footer-social-links {
+  display: flex;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.footer-social-links span {
+  color: #316dc3;
+}
+
+.footer-bottom {
+  background-color: #316dc3;
+}
+
+.footer-bottom-container {
+  width: 70%;
+  margin: auto;
+  padding: 15px 0px 15px 0;
+}
+
+.footer-bottom-container p {
+  color: #fff;
+  font-size: 0.85rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+
+  .header-top div {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .mobile-menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu-items {
+    display: none;
+  }
+
+  .slider {
+    height: 300px;
+    background-attachment: inherit;
+  }
+
+  .content {
+    width: 90%;
+  }
+
+  .numbers-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .box_images-container {
+    width: 40%;
+  }
+
+  .mission-section-container {
+    flex-direction: column;
+    padding: 5%;
+  }
+
+  .mission-col-1 {
+    margin-bottom: 40px;
+  }
+
+  .gallery {
+    flex-direction: column;
+  }
+
+  .gallery a {
+    width: 100%;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-top div {
+    margin: 10px 0;
+  }
+}
